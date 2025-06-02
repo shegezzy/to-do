@@ -1,46 +1,26 @@
-### 📄 `README.md`
-
-```markdown
 # 📝 To-Do App (JavaScript + Node.js)
 
-A simple full-stack To-Do List app built with **Node.js**, **Express**, and **Vanilla JavaScript**. It allows users to add, edit, and delete to-dos with timestamps. Pressing `Enter` adds a new task instantly.
+A simple full-stack To-Do List app built with **Node.js**, **Express**, and **Vanilla JavaScript**.  
+It allows users to add, edit, and delete to-dos with timestamps. Pressing `Enter` adds a new task instantly.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Add to-dos with timestamp
-- ✅ Press `Enter` to add
-- ✅ Edit and save existing to-dos
-- ✅ Delete tasks
-- ✅ Responsive UI with clean design
-
----
-
-## 🗂 Folder Structure
-
-```
-
-.
-├── controllers/
-│   └── todoController.js
-├── public/
-│   ├── index.html
-│   ├── app.js
-│   └── style.css
-├── server.js
-└── README.md
-
-````
+- ✅ Add to-dos with timestamps  
+- ✅ Press `Enter` to add new tasks  
+- ✅ Edit and save existing to-dos  
+- ✅ Delete tasks  
+- ✅ Clean and responsive UI  
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1. **Clone the repo**
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/shegezzy/to-do
+git clone https://github.com/shegezzy/to-do.git
 cd todo-app-js
 ````
 
@@ -56,7 +36,7 @@ npm install
 node server.js
 ```
 
-4. **Visit in browser**
+4. **Open your browser and visit**
 
 ```
 http://localhost:3000
@@ -67,7 +47,7 @@ http://localhost:3000
 ## ✏️ How to Use
 
 * Type your to-do in the input field and press **Enter** or click **Add**.
-* Click **Edit** to modify a to-do. Save changes by clicking **Save**.
+* Click **Edit** next to any task to modify it, then click **Save**.
 * Click **Delete** to remove a to-do.
 
 ---
@@ -76,12 +56,22 @@ http://localhost:3000
 
 * Node.js
 * Express
-* HTML5 + CSS3
+* HTML5 & CSS3
 * JavaScript (ES6)
 
 ---
 
-## 📸 Screenshot
+## 🗂 Project Structure
+
+This screenshot shows how the files are organized in the repository:
+
+![Project Structure](images/files.png)
+
+---
+
+## 📸 Application Screenshot
+
+Here is how the app looks when running:
 
 ![App Screenshot](images/screenshot.png)
 
@@ -89,12 +79,12 @@ http://localhost:3000
 
 ## 📄 License
 
-MIT License
+This project is licensed under the MIT License.
 
 ---
 
 ## 🙌 Acknowledgements
 
-Inspired by real-world productivity needs and built for practice and demonstration.
+Built for learning and demonstration purposes, inspired by common productivity applications.
 
-
+```
